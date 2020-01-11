@@ -3,6 +3,7 @@ express : a light framework for web development
 ejs : embedded js. For every .js file, it contains the content for a webpage 
 body-parser : retrieve information from <body></body>
 request : for making request with API
+  use var result = JSON.parse(body) to parse body returned from the request
 
 1. command line
 https://www.davidbaumgold.com/tutorials/command-line/
@@ -22,6 +23,7 @@ https://expressjs.com/
 6. web api resources
 https://ifttt.com/
 https://www.programmableweb.com/
+http://www.omdbapi.com/
 
 7. json viewer or use browser's json viewer addons
 http://jsonviewer.stack.hu/
