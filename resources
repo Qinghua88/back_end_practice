@@ -38,6 +38,11 @@ https://codepen.io/urketadic/pen/oZRdRN
 10. authentication
 http://www.passportjs.org/
 
+11. deploy
+https://dashboard.heroku.com/apps
 
-11. make you app compatible with different browsers
+12. database on the cloud mongo atlas
+https://www.mongodb.com/cloud/atlas
+
+13. make you app compatibe with different browers
 https://modernizr.com/
