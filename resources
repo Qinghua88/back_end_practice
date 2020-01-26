@@ -52,3 +52,22 @@ https://sql-format.com/
 
 15. DATE FORMAT FOR SQL
 https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html
+
+16. TRIGGER boilerplate
+================
+DELIMITER $$
+
+CREATE TRIGGER trigger_name
+     trigger_time trigger_event ON table_name FOR EACH ROW
+     BEGIN
+     END;
+$$
+DELIMITER ;
+================
+trigger_time    trigger_event    ON     table_name
+BEFORE          INSERT
+AFTER           UPDATE
+                DELETE
+
+17. SQLSTATE VALUE
+https://dev.mysql.com/doc/refman/8.0/en/resignal.html
